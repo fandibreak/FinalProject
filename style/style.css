@@ -1,0 +1,251 @@
+
+
+.bodyindex{
+    background: linear-gradient(70deg, black, white);
+
+}
+
+    header {
+    background-color: aqua;
+    display: inline-block;
+    align-items: center;
+    border: #000000 5px navajowhite ;
+    }
+
+    
+    .div{
+
+        background-color: aqua;
+        border-radius: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        background-color: rgb(207, 201, 207);
+        border-radius: 20px;
+       
+    }
+    
+    .section1 {
+        border: black 5px solid;
+        border-radius: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        background-color: white;
+        width: auto;
+        justify-content: center;
+        margin: auto;
+        padding: 5px 30px ;
+        width: 200px;
+        text-align: center;
+    }
+
+    .section2 {
+        border: black 5px solid;
+        border-radius: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: white;
+        width: auto;
+        justify-content: center;
+        margin: auto;
+        padding: 5px 30px ;
+        width: 400px;
+        text-align: center;
+    }
+
+
+    .section3 {
+        border: black 5px solid;
+        border-radius: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        background-color: white;
+        width: auto;
+        justify-content: center;
+        margin: auto;
+        padding: 5px 30px ;
+        width: 600px;
+        text-align: center;
+    }
+
+   
+    
+    .caja1  { 
+        color: #fff;
+        margin: 0px ;
+        font-size: 50px;
+        font-weight: 600;
+        text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+        font-family: 'Dancing Script', cursive;
+        text-shadow: 5px 5px #151a1f;
+     
+ 
+    }
+    
+    
+    footer{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        color: rgb(4, 0, 255);
+    }
+
+/* Estilos para Biografia  */
+
+ul {
+    border: 1px solid #555;
+}
+
+li {
+    text-align: left;
+
+}
+
+
+
+.bodybio{
+
+    background-color: rgb(49, 47, 47);
+
+}
+
+.headerb {
+    background-color: aqua;
+        display: inline-block;
+        align-items: center;
+        border: #000000 5px ;
+        }
+
+.divh1 { 
+         text-align: center;
+         color: white;
+          }
+
+.divimage{
+    
+    border-radius: 60px;
+    text-align: center
+}
+
+.divsection{
+
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    padding:1px;
+    margin: 3%;
+ 
+}
+
+.azul {
+
+    color: rgb(20, 20, 216);
+}
+
+/* Estilos para la pagina de contacto  */
+
+input{
+
+    background-color: rgb(177, 241, 220);
+    border-radius: 30px;
+
+}
+
+.divform {
+
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    box-shadow: 6px 20px 10px black;
+}
+
+.divform0{
+
+    display: flex;
+    padding: 1%;
+    border: rgb(19, 148, 131) solid;
+    background-color: rgb(204, 173, 195);
+    width: 50%;
+    height: 50%;    
+    justify-content: center;
+
+}
+
+
+fieldset {
+
+    border-radius: 22px;
+
+}
+/* estilos para el portafolio */
+
+.bodyporta{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+background-color: rgb(231, 243, 234);
+
+}
+
+.imgporta{
+width: 100%;
+
+}
+
+.portafolio {
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.portafolio h1 {
+
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+
+}
+
+.portafolio-container {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.portafolio-item{
+    width: 30%;
+    position: relative;
+ 
+
+}
+
+.portafolio-text {
+
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    transform: translateY(100%);
+    transition: all 0.5s ease-out ;
+   
+}
+/*
+.portafolio-img {
+
+    transition:all 5s;
+
+}
+
+.portafolio-text p {
+    text-align: justify;
+} 
+
+.portafolio-item :hover .portafolio-text {
+
+ transform: translateY(0%);
+
+}
+
+    
+.portafolio-item :hover .portafolio-img {
+    transform: scale(1.15);
+}*/
